@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/versus_bg.qm</file>
+        <file alias="de">locale/versus_de.qm</file>
+        <file alias="en">locale/versus_en.qm</file>
+        <file alias="es">locale/versus_es.qm</file>
+        <file alias="fi">locale/versus_fi.qm</file>
+        <file alias="fr">locale/versus_fr.qm</file>
+        <file alias="it">locale/versus_it.qm</file>
+        <file alias="ja">locale/versus_ja.qm</file>
+        <file alias="pl">locale/versus_pl.qm</file>
+        <file alias="pt">locale/versus_pt.qm</file>
+        <file alias="ru">locale/versus_ru.qm</file>
+        <file alias="sk">locale/versus_sk.qm</file>
+        <file alias="sv">locale/versus_sv.qm</file>
+        <file alias="vi">locale/versus_vi.qm</file>
+        <file alias="zh_CN">locale/versus_zh_CN.qm</file>
+        <file alias="zh_TW">locale/versus_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+usr/local/bin/versus-qt usr/bin
+share/pixmaps/versus32.xpm usr/share/pixmaps
+share/pixmaps/versus16.xpm usr/share/pixmaps
+share/pixmaps/versus128.png usr/share/pixmaps
+debian/versus-qt.desktop usr/share/applications
+debian/versus-qt.protocol usr/share/kde4/services/

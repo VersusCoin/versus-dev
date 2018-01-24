@@ -1,0 +1,22 @@
+[Unit]
+Description=Versus's distributed currency daemon
+After=network.target
+
+[Service]
+User=versuscore
+Group=versuscore
+
+Type=forking
+PIDFile=/var/lib/versusd/versusd.pid
+ExecStart=/usr/bin/versusd -daemon -pid=/var/lib/versusd/versusd.pid \
+-conf=/etc/versuscore/versus.conf -datadir=/var/lib/versusd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
